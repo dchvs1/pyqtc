@@ -3,6 +3,7 @@ include_directories(
   ${CMAKE_CURRENT_SOURCE_DIR}
   ${QTC_SOURCE}/src
   ${QTC_SOURCE}/src/libs
+  ${QTC_SOURCE}/src/libs/3rdparty/
   ${QTC_SOURCE}/src/libs/3rdparty/cplusplus
   ${QTC_SOURCE}/src/plugins
   ${QTC_SOURCE}/tools
@@ -10,7 +11,7 @@ include_directories(
 
 link_directories(
   ${QTC_BINARY}/lib/qtcreator
-  ${QTC_BINARY}/lib/qtcreator/plugins/Nokia
+  ${QTC_BINARY}/lib/qtcreator/plugins/
 )
 
 add_definitions(
@@ -93,6 +94,7 @@ target_link_libraries(pyqtc
   ${QT_LIBRARIES}
   ${CMAKE_THREAD_LIBS_INIT}
   ${PROTOBUF_LIBRARY}
+  ${QTC_TEXTEDITOR_LIB}
 )
 
 install(TARGETS pyqtc LIBRARY DESTINATION ${PYQTC_LIB_DIR})
