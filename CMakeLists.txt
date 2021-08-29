@@ -42,13 +42,15 @@ endif()
 
 # Find Qt Creator libraries
 find_qt_creator_library(QTC_AGGREGATION_LIB      Aggregation)
-find_qt_creator_library(QTC_BOTAN_LIB            Botan)
+#find_qt_creator_library(QTC_BOTAN_LIB            Botan)
 find_qt_creator_library(QTC_CPLUSPLUS_LIB        CPlusPlus)
 find_qt_creator_library(QTC_CORE_LIB             Core)
 find_qt_creator_library(QTC_EXTENSION_SYSTEM_LIB ExtensionSystem)
-find_qt_creator_library(QTC_LOCATOR_LIB          Locator)
+#find_qt_creator_library(QTC_LOCATOR_LIB          Locator)
 find_qt_creator_library(QTC_PROJECT_EXPLORER_LIB ProjectExplorer)
 find_qt_creator_library(QTC_UTILS_LIB            Utils)
+find_qt_creator_library(QTC_3RDPARTY_LIB            3rdparty)
+find_qt_creator_library(QTC_TEXTEDITOR_LIB            TextEditor)
 
 # Subdirectories
 add_subdirectory(protoc-gen-cpp_qt)
