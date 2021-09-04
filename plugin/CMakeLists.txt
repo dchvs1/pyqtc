@@ -5,13 +5,26 @@ include_directories(
   ${QTC_SOURCE}/src/libs
   ${QTC_SOURCE}/src/libs/3rdparty/
   ${QTC_SOURCE}/src/libs/3rdparty/cplusplus
+  ${QTC_SOURCE}/src/libs/3rdparty/yaml-cpp/include/
   ${QTC_SOURCE}/src/plugins
+  ${QTC_SOURCE}/src/plugins/coreplugins/
   ${QTC_SOURCE}/tools
 )
 
 link_directories(
   ${QTC_BINARY}/lib/qtcreator
   ${QTC_BINARY}/lib/qtcreator/plugins/
+
+  ${CMAKE_CURRENT_BINARY_DIR}
+  ${CMAKE_CURRENT_SOURCE_DIR}
+  ${QTC_SOURCE}/src
+  ${QTC_SOURCE}/src/libs
+  ${QTC_SOURCE}/src/libs/3rdparty/
+  ${QTC_SOURCE}/src/libs/3rdparty/cplusplus
+  ${QTC_SOURCE}/src/libs/3rdparty/yaml-cpp/include/
+  ${QTC_SOURCE}/src/plugins
+  ${QTC_SOURCE}/src/plugins/coreplugins/
+  ${QTC_SOURCE}/tools
 )
 
 add_definitions(
