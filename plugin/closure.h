@@ -6,7 +6,7 @@
 #include <QMetaMethod>
 #include <QObject>
 
-#include <boost/noncopyable.hpp>
+#include <yaml-cpp/noncopyable.h>
 #include <boost/scoped_ptr.hpp>
 
 namespace pyqtc {
