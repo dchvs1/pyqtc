@@ -6,7 +6,7 @@
 #include <texteditor/codeassist/functionhintproposal.h>
 #include <texteditor/codeassist/iassistprocessor.h>
 #include <texteditor/codeassist/ifunctionhintproposalmodel.h>
-#include <texteditor/codeassist/igenericproposalmodel.h>
+#include <texteditor/codeassist/genericproposalmodel.h>
 
 #include "config.h"
 #include "rpc.pb.h"
