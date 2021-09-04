@@ -7,7 +7,7 @@ include_directories(
   ${QTC_SOURCE}/src/libs/3rdparty/cplusplus
   ${QTC_SOURCE}/src/libs/3rdparty/yaml-cpp/include/
   ${QTC_SOURCE}/src/plugins
-  ${QTC_SOURCE}/src/plugins/coreplugins/
+  ${QTC_SOURCE}/src/plugins/coreplugin/
   ${QTC_SOURCE}/tools
 )
 
@@ -23,7 +23,7 @@ link_directories(
   ${QTC_SOURCE}/src/libs/3rdparty/cplusplus
   ${QTC_SOURCE}/src/libs/3rdparty/yaml-cpp/include/
   ${QTC_SOURCE}/src/plugins
-  ${QTC_SOURCE}/src/plugins/coreplugins/
+  ${QTC_SOURCE}/src/plugins/coreplugin/
   ${QTC_SOURCE}/tools
 )
 
