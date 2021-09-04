@@ -18,7 +18,7 @@
 #ifndef PYQTC_PYTHONEDITOR_H
 #define PYQTC_PYTHONEDITOR_H
 
-#include <texteditor/plaintexteditor.h>
+#include <texteditor/plaintexteditorfactory.h>
 
 #include "config.h"
 
